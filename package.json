@@ -1,5 +1,6 @@
 {
-  "name": "",
+  "name": "landing-phenia",
+  "description": "Segunda version de landing page de MUGA.DEV",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,9 +10,11 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource-variable/jost": "^5.2.8",
     "@midudev/tailwind-animations": "^0.2.0",
     "@tailwindcss/vite": "^4.1.17",
     "astro": "^5.16.1",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4.1.17"
   }
 }
