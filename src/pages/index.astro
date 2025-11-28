@@ -1,15 +1,16 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Countdown from "@/sections/Countdown.astro";
+import Footer from "@/sections/Footer.astro";
+import Hero from "@/sections/Hero.astro";
+import Layout from "@/layouts/Layout.astro";
+import PrincipalDate from "@/sections/PrincipalDate.astro";
 ---
 
 <Layout title="// Landing Page modelo Phenico">
+  <Hero />
   <main>
-    <h1 class="animate-flip-x">
-      Bienvenido a la Landing Page Astro Modelo Phenico
-    </h1>
-    <p class="text-white">
-      Esta es una página de inicio creada con Astro y utilizando un diseño
-      personalizado.
-    </p>
+    <PrincipalDate />
+    <Countdown />
   </main>
+  <Footer />
 </Layout>
