@@ -1,33 +1,43 @@
-# Landing page modelo Phenico
 
-Segunda versión de landing page de MUGA.DEV
 
+# muga-dev-landing-lite
 ![Screenshot](public/screenshot.png)
 
-## Descripción
+**Estado:** 🟢 Activo
 
-Landing page moderna y responsiva para promocionar servicios o productos, con diseño modular y optimizado.
+Variante liviana del producto `muga-dev-landing`.
+Pensada para casos simples donde se necesita una landing rápida,
+sin complejidad ni estructura extendida.
 
-## Características
+## Qué es
+Una versión reducida del producto de landing de MUGA.dev.
+Mantiene criterio visual y claridad, eliminando capas innecesarias.
 
-- Diseño responsivo
-- Animaciones suaves
-- Secciones modulares (Hero, Info, Fecha principal, Footer)
+## Para qué sirve
+- Landings muy simples.
+- Pruebas de concepto.
+- Proyectos con bajo requerimiento de escalabilidad.
 
-## Tecnologías
+## Relación con otros productos
+Este repo **no reemplaza** a `muga-dev-landing`.
 
+- `muga-dev-landing` → producto completo y escalable.
+- `muga-dev-landing-lite` → versión mínima, rápida y directa.
+
+## Público objetivo
+- Proyectos pequeños.
+- Clientes con necesidades acotadas.
+- Uso interno cuando la complejidad no se justifica.
+
+## Stack
 - Astro
-- Tailwind CSS
-- @midudev/tailwind-animations
+- CSS
+- HTML semántico
 
-## Instalación
-
+## Desarrollo local
 ```bash
-pnpm install
-```
+npm install
+npm run dev
 
-## Ejecución
 
-```bash
-pnpm dev
-```
+
